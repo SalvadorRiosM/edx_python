@@ -12,6 +12,6 @@ print(s)
 s.remove("juan") #Aqui removi directamente el nombre, no por indice!
 print(s)
 
-print(f"The set has {len(s)} elements.") # Len te dice cuantos elementos tiene el set o la lista etc.
+print(f"The set has {len(s)} elements.") # Len te dice cuantos elementos tiene el set o la lista, etc.
 
 
