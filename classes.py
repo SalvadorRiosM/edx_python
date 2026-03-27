@@ -1,8 +1,15 @@
-class Point():
-    def __init__(self, input1, input2):
-        self.x = input1
-        self.y = input2
+class Pokemon():
+    def __init__(self, nombre, nivel, hp, tipo):
+        self.name = nombre
+        self.level = nivel
+        self.vida = hp
+        self.type = tipo
         
-p = Point(2,8)
-print(p.x)
-print(p.y)
+pikachu = Pokemon("pikachu",20,100, "electrico")
+
+print(f"Las caracteristicas del pokemon {pikachu.name}")
+print(f"Tiene un nivel {pikachu.level}")
+print(f"El HP es de {pikachu.vida}")
+print(f"Es de tipo {pikachu.type}")
+
+
