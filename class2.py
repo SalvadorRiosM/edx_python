@@ -15,10 +15,10 @@ class Flight():
 flight = Flight(2) # Creamos un objeto con capacidad de 3 pasajeros
 
 people = ["Harry", "Ron", "Hermione", "Ginny"]
-for item in people:
-    success = flight.add_passengers(item)           # Instanciamos al objeto de flight con la funcion de agregar pasajeros
+for person in people:
+    success = flight.add_passengers(person)           # Instanciamos al objeto de flight con la funcion de agregar pasajeros
     if success:
-        print(f"Added {item} to flight successfully.")
+        print(f"Added {person} to flight successfully.")
     else:
-        print(f"No avaible seats for {item}.")
+        print(f"No avaible seats for {person}.")
         
